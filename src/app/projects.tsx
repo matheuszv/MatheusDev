@@ -18,21 +18,21 @@ export function Projects(){
         <section ref={targetRef} className="relative h-[300vh] bg-[url('./bg-desktop4.jpg')] bg-cover">
         <div className="sticky top-0 flex h-screen items-center overflow-hidden">
             <motion.div style={{ x }} className="flex gap-8 px-6">
-                <a href="https://lembre-lembre-app.vercel.app/fotos/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]">
+                <a href="https://lembre-lembre-app.vercel.app/fotos/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]  max-md:max-w-[350px]">
                     <Image src={LembreImage.src} alt="Projeto de Matheus" className="object-cover" width={450} height={250} preview={false}/>
                     <div className="p-4 max-w-[450px]">
                     <h3 className="text-xl font-semibold text-cyan-300">Lembre-Lembre</h3>
                     <p className="text-gray-400 text-sm mt-2">Complete photo and event management and organization system, developed with Next.js, Prisma, and Tailwind CSS.</p>
                     </div>
                 </a>
-                <a href="https://baliarquitetura.com/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]">
+                <a href="https://baliarquitetura.com/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px] max-md:max-w-[350px]">
                     <Image src={BaliImage.src} alt="Projeto de Matheus" className="object-cover" width={450} height={250} preview={false}/>
                     <div className="p-4 max-w-[450px]">
                     <h3 className="text-xl font-semibold text-cyan-300">BALI ARQUITETURA</h3>
                     <p className="text-gray-400 text-sm mt-2">Platform that displays information and projects carried out by BALI Architecture, a project using Next.js.</p>
                     </div>
                 </a>
-                <a href="https://dt-money-mv.vercel.app/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]">
+                <a href="https://dt-money-mv.vercel.app/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]  max-md:max-w-[350px]">
                     <Image src={DTimage.src} alt="Projeto de Matheus" className="object-cover" width={450} height={250} preview={false}/>
                     <div className="p-4 max-w-[450px]">
                     <h3 className="text-xl font-semibold text-cyan-300">DT-Money</h3>
