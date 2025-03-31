@@ -15,7 +15,7 @@ export function Projects(){
 
       const x = useTransform(scrollYProgress, [0, 1], ["10%", "-50%"]);
     return (
-        <section ref={targetRef} className="relative h-[300vh] bg-[url('./bg-desktop4.jpg')] bg-cover">
+        <section ref={targetRef} className="relative h-[300vh] bg-[url('./bg-desktop4.jpg')] bg-cover md:h-[400vh]">
         <div className="sticky top-0 flex h-screen items-center overflow-hidden">
             <motion.div style={{ x }} className="flex gap-8 px-6">
                 <a href="https://lembre-lembre-app.vercel.app/fotos/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]  max-md:max-w-[330px]">
