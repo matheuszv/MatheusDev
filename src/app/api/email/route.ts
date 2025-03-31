@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-export async function POST(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest) {
     const body = await req.json();
 
     const mailOptions = {

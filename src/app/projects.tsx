@@ -2,7 +2,6 @@ import { Image } from "antd"
 import LembreImage from './LEMBRE-LEMBRE.jpg'
 import BaliImage from './BALI.jpg'
 import DTimage from './DT-MONEY.jpg'
-import matheusfoto from './matheus.jpg'
 import { motion, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
 
