@@ -72,7 +72,7 @@ export default function Home() {
                   CONTACT
                 </a>
               </div>
-                <Button variant="outline" className="rounded-3xl text-xs bg-cyan-950 text-white hover:bg-zinc-300 hover:text-zinc-800 duration-500 max-md:hidden" onClick={()=> window.open("https://www.linkedin.com/in/matheuszv/", "_blank")}>Let's Connect</Button>
+                <Button variant="outline" className="rounded-3xl text-xs bg-cyan-950 text-white hover:bg-zinc-300 hover:text-zinc-800 duration-500 max-md:hidden" onClick={()=> window.open("https://www.linkedin.com/in/matheuszv/", "_blank")}>Let&apos;s Connect</Button>
           </nav>
 
       <section ref={targetRef} className="relative h-[200vh] bg-neutral-900 ">
