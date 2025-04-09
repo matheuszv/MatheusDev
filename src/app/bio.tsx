@@ -51,7 +51,7 @@ export function Biografy(){
           </div>
 
           <motion.div  className="mt-6 cursor-pointer" initial={{opacity: 0, scale: 1}} whileInView={{opacity:1, transition:{duration: 1, delay: 0.5}}} whileHover={{scaleY: 1.08, transition:{duration: 0.4}}}>
-            <a className="bg-cyan-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-cyan-500 duration-300">
+            <a download href="./matheusEN.pdf" className="bg-cyan-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-cyan-500 duration-300">
               Download CV
             </a>
           </motion.div>
