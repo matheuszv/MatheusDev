@@ -21,8 +21,6 @@ export async function POST(req: NextRequest) {
         text: `Nome: ${body.name}\nEmail: ${body.email}\nMensagem: ${body.message}`,
     };
 
-    console.log(process.env.EMAIL_USER)
-    console.log(`Nome: ${body.name}\nEmail: ${body.email}\nMensagem: ${body.message}`)
 
   try {
     await transporter.sendMail(mailOptions);

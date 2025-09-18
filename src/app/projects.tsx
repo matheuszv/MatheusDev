@@ -1,4 +1,5 @@
 import { Image } from "antd"
+import JourneyPlan from './JourneyPlan.jpg'
 import LembreImage from './LEMBRE-LEMBRE.jpg'
 import BaliImage from './BALI.jpg'
 import DTimage from './DT-MONEY.jpg'
@@ -37,6 +38,13 @@ export function Projects(){
                     <div className="p-4 max-w-[450px]">
                     <h3 className="text-xl font-semibold text-cyan-300">DT-Money</h3>
                     <p className="text-gray-400 text-sm mt-2">Simple financial organization system, developed with React, Node, and Prisma.</p>
+                    </div>
+                </a>
+                <a href="https://journey-plan.vercel.app/" className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[500px]  max-md:max-w-[260px]">
+                    <Image src={JourneyPlan.src} alt="Projeto de Matheus" className="object-cover" width={450} height={250} preview={false}/>
+                    <div className="p-4 max-w-[450px]">
+                    <h3 className="text-xl font-semibold text-cyan-300">JourneyPlan</h3>
+                    <p className="text-gray-400 text-sm mt-2">A travel planning system, developed with NextJS and Prisma.</p>
                     </div>
                 </a>
                 {/* <a className="flex flex-col bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 max-w-[450px]">
