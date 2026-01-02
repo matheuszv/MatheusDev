@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import {Image } from "antd";
 import { Exo_2 } from "next/font/google";
-import matheusfoto from './matheus.jpg'
+import matheusfoto from './matheusfoto2.png'
 import { useState, useEffect } from "react";
 
 const NameFont = Exo_2({
